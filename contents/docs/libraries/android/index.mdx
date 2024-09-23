@@ -267,5 +267,8 @@ val config = PostHogAndroidConfig(apiKey = POSTHOG_API_KEY, host = POSTHOG_HOST)
     // Enable Recording of Session Replays. (off/false by default)
     // Experimental support
     sessionReplay = false
+
+    // Capture person profiles with events i.e. identified or anonymous events. (ALWAYS by default)
+    personProfiles = PersonProfiles.ALWAYS
 }
 ```
